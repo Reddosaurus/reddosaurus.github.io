@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <!-- adding roboto font from google fonts -->
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto' />
+    <!-- adding lightbox.js css styling -->
+    <!--<link rel="stylesheet" href="js/css/lightbox.css" />
+    adding costum css styling -->
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="js/css/lightbox.css"/>
+
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <!-- container wrapping the page content start -->
+    <div class="container">
+      <!-- header start -->
+      <header id="home">
+        <!-- navigation start -->
+        <nav>
+
+          <div class="col col-1">
+            <img class="logo" src="images/neues logo.png" />
+            <h1 id="name">Y. Montoya Perez</h1>
+            <p class="brand"></p>
+          </div>
+                <div class="menu">
+                  <ul>
+                    <li><a href=>Home</a></li>
+                    <li><a href=>About me</a></li>
+                    <li><a href=>Projekte</a></li>
+                    <li><a href=>Gallerie</a></li>
+                  </ul>
+                </div>
+          </nav>
+            <!-- <img src="images/origami.jpg" alt= Origami/>-->
+
+              <h1 id="heading"><span>NEVER</span> STOP<br>
+                                      IMPROVING <br>
+                                          YOURSELF</h1>
+
+          </div>
+        <!-- navigation end -->
+      </header>
+      <!-- header end -->
+
+      <!-- about content start -->
+      <div id="about" class="row gradient-red">
+        <div class="col col-2">
+          <h1 class="greet"> Willkommen! Welcome!</h1>
+          <br>
+          <p class="introduce"> <strong>Zu meiner Person:</strong><br>
+            Haben Sie schon mal einen Punkt in Ihrem Leben erreicht,<br>
+            an dem Sie einen Schritt in eine neue Richtung wagen wollten?<br>
+            Ich hatte diesen Moment vor ca. 2 Jahren und bin Froh diesen Weg <br>
+            gegangen zu sein. <br><br>
+            Mit Html kam ich öfters in  Berührung, doch auf die Idee es auch<br> Beruflich auszuüben kam ich erst später. Als sich vor einem Jahr meine<br> Elternzeit dann dem Ende zu neigte, entschied ich mich endgültig<br>
+            und meldete mich an meiner jetzigen Schule an.<br><br>
+            Zeitgleich begann ich mich intensiver mit Html und CSS auseinander<br>
+            zu setzen. In meiner Ausbildung an dieser Schule (“Berufsschule für Medien<br>
+            und Kommunikation” )lerne ich stets neues,wie zum Beispiel das <br>
+            gestalten dieses Webportfolios. Obwohl meine Projekte bisher noch in<br>
+            den Kinderschuhen stecken bin ich mir sicher das ich vieles dazu lernen<br> werde.
+            <br><br>
+            Yolanda Montoya Perez
+
+        </div>
+        <div class="col col-1">
+          <img class="profile-img" src="profilbilder/Pictures/Bewerbungsfoto_yoli.jpg" alt="A profile picture of me."/>
+
+        </div>
+      </div>
+      <!-- about content end -->
+
+      <!-- favourites content start -->
+      <div class="row">
+        <div class="col col-1">
+          <h1 class="interest">Außerdem...</h1>
+          <h2 class="slogan">Das mag ich am liebsten...</h2>
+          <img id="avatar" src="images/illustrator/me.png"/>
+        </div>
+        <div class="col col-2">
+          <img id="favourites" src="images/favourites.gif">
+        </div>
+      </div>
+      <!-- favourites content end -->
+
+      <!-- poem content start -->
+      <div class="row gradient-red">
+        <div class="col col-3">
+          <h5 class="frost">Robert Frost</h5>
+          <h1 class="poemtitle">The Road Not Taken</h1>
+          <p class="firstvers">
+            Two roads diverged in a yellow wood,<br>
+            And sorry I could not travel both <br>
+            And be one traveler, long I stood <br>
+            And looked down one as far as I could <br>
+            To where it bent in the undergrowth;</span><br>
+          </p>
+          ...
+          <br>
+          <p class="lastvers">
+            I shall be telling this with a sigh<br>
+            Somewhere ages and ages hence:<br>
+            Two roads diverged in a wood, and I -<br>
+            I took the one less traveled by,<br>
+            And that has made all the difference. </span><br>
+          </p>
+        </div>
+      </div>
+      <!-- poem content end -->
+
+      <!-- header 2 start -->
+      <div id="project" class="row headertwo">
+        <div class="#">
+          <h1>Projekte</h1>
+        </div>
+      </div>
+      <!-- header 2 end -->
+
+      <div class="linebreak"></div>
+
+      <!-- gallery content start -->
+      <div  class="row">
+        <!--Ordner pro 1 start-->
+        <div class=" col-3 project" toggle="pro-1">
+            <img class="projectimage" src="images/fotosquad/hamburg.gif">
+
+            <p class="description">
+              <br>
+              <br>
+              <span class="hamburg">Hamburg<br></span>
+              In zusammenarbeit mit meinen lieben Kolleginen, haben wir uns auf<br> Entdeckungsreise gemacht, und Hamburg zur Weihnachtszeit <br>
+              Fotografiert.
+            </p>
+        </div>
+
+        <div id="pro-1" class="inactive col-3 gallery" active="false">
+          <div>
+                  <a href="images/fotosquad/aleks.jpg"
+                  data-lightbox="example-set"
+                  data-title="Aleks.">
+                  <img class="projectimage" src="images/fotosquad/aleks.jpg">
+                </a>
+
+                <a href="images/fotosquad/beingme.jpg"
+                data-lightbox="example-set"
+                data-title="Awkward">
+                <img class="projectimage" src="images/fotosquad/beingme.jpg">
+              </a>
+
+              <a href="images/fotosquad/kitchen.jpg"
+              data-lightbox="example-set"
+              data-title="Christmas 2015.">
+              <img class="projectimage" src="images/fotosquad/kitchen.jpg">
+            </a>
+
+            <a href="images/fotosquad/flammkuchen.jpg" data-lightbox="example-set"
+            data-title="?">
+            <img class="projectimage" src="images/fotosquad/flammkuchen.jpg">
+          </a>
+
+          </div>
+        </div>
+        <!--Ordner pro 1 ende-->
+
+        <!--Ordner pro 2 start-->
+        <div class="col-3 project" toggle="pro-2">
+            <img class="projectimage" src="images/Photoshop.png">
+
+            <p class="description">
+              <br>
+              <br>
+              <span class="photoshop">Photoshop<br></span>
+               Hier findet ihr einige Beispiele meiner Erfolge in Photoshop bis dato.
+            </p>
+        </div>
+
+        <div id="pro-1" class="inactive col-3 gallery" active="false">
+          <div>
+                  <a href="images/dreieckbild.gif"
+                  data-lightbox="psd"
+                  data-title="Aleks.">
+                  <img class="projectimage" src="images/dreieckbild.gif">
+                </a>
+
+                <a href="images/Antilope_yolanda.png"
+                data-lightbox="psd"
+                data-title="Awkward">
+                <img class="projectimage" src="images/Antilope_yolanda.png">
+              </a>
+
+              <a href="images/neues logo.jpg"
+              data-lightbox="psd"
+              data-title="Christmas 2015.">
+              <img class="projectimage" src="images/neues logo.jpg">
+            </a>
+
+            <a href="http://placehold.it/350x150" data-lightbox="psd"
+            data-title="?">
+            <img class="projectimage" src="http://placehold.it/350x150">
+          </a>
+        </div>
+        </div>
+        <!--Ordner pro 2 Ende-->
+
+        <!--Ordner pro 3 start-->
+        <div class="col-3 project" toggle="pro-3">
+            <img class="projectimage" src="images/Illustrator.png">
+
+            <p class="description">
+              <br>
+              <br>
+              <span class="Illustrator">Illustrator<br></span>
+              Hier findet ihr einige Beispiele meiner Erfolge in Illustrator bis dato.
+            </p>
+        </div>
+
+        <div id="pro-3" class="inactive col-3 gallery" active="false">
+          <div>
+
+          <a href="images/illustrator/erdbeere-illu.jpg"
+            data-lightbox="Illu"
+            data-title="Erdbeere">
+            <img src="images/illustrator/erdbeere-illu.jpg" alt="Erdbeere">
+          </a>
+
+        <a href="images/illustrator/maderdbeere.jpg"
+          data-lightbox="Illu"
+          data-title="Mad-Erdbeere">
+          <img src="images/illustrator/maderdbeere.jpg">
+        </a>
+
+        <a href="images/illustrator/me.png"
+          data-lightbox="Illu"
+          data-title="Me">
+          <img src="images/illustrator/me.png">
+        </a>
+
+        <a href="images/illustrator/logo.png"
+          data-lightbox="Illu"
+          data-title="Logo">
+          <img src="images/illustrator/logo.png">
+        </a>
+
+          </div>
+        </div>
+      <!--Ordner pro 3 Ende-->
+      </div>
+      <!-- gallery content end -->
+
+      <!-- driving content start -->
+      <div id="driving-header" class="row">
+      <h1 class="Kontaktdaten">Anfahrt</h1>
+
+
+      <div class="linebreak"></div>
+
+      <div id="driving" class="row">
+        <div class="col col-2">
+          <a href="images/stadtplan.png"
+            data-lightbox="roadtrip"
+            data-title="Weg zur Reddosaurus Hölle">
+            <img id="citymap" src="images/stadtplan.png">
+          </a>
+      </div>
+        <div class="col col-1">
+          <ul id="data">
+              <li>
+                <strong>Name:</strong> Yolanda Montoya Perez<br>
+                <br>
+                <strong>Künstlername:</strong> Reddosaurus<br>
+                <strong>Maskottchen:</strong> Giggles (T-Rex)
+
+              </li>
+              <li>
+                <strong>Adresse:</strong> Harderweg 14a <br>
+                22549 Hamburg
+              </li>
+              <li>
+                <strong>Tel:</strong> 040 57221710
+              </li>
+              <li>
+                <strong>E-mail:</strong> y.montoya.perez@gmail.com
+              </li>
+          </ul>
+          <ul id="social">
+            <li>
+              <strong>Verkehrsinfo</strong><br>
+              <a href="https://www.hvv.de">
+                <img src="images/hvv.png"/>
+              </a>
+            </li>
+            <li>
+              <strong>Follow me on...</strong><br>
+              <a href="https://www.facebook.com/yolanda.montoyaperez">
+                <img src="images/f.png">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- driving content end -->
+
+      <!-- askme content start -->
+      <div id="contact-head" class="row">
+      <h1 id="Fragen">Kontaktformular
+      </h1>
+    </div>
+
+      <div class="linebreak"></div>
+
+      <div class="row">
+        <div class="col col-2">
+          <img id="contact-img" src="images/Illustrator/reddosauruslogo.png" >
+        </div>
+        <div class="col col-1">
+          <div class="contact-form">
+            <h3>Du hast noch Fragen? <br />
+              Dann schreib mir einfach eine Mail!
+            </h3>
+            <!-- for live version use this form tag
+            <form action="http://formspree.io/y.montoya.perez@gmail.com" method="POST">
+            -->
+            <form>
+              <label for="subject">Betreff</label>
+              <input type="text" id="subject" name="subject" placeholder="E-Mail Betreff">
+              <label for="text">Text</label>
+              <textarea type="text" id="text" name="text" placeholder="E-Mail Inhalte..."></textarea>
+              <button>Senden</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- askme content end -->
+
+      <!-- end of page content. no content after this comment! -->
+    </div>
+    <!-- container wrapping the page content end -->
+
+    <!-- das hier ist das script tag zum verlinken von jquery, das hier ist ein cdn (code delivery network) -->
+  <!-- jQuery cdn -->
+
+    <script src="js/js/lightbox-plus-jquery.js"></script>
+  </body>
+</html>

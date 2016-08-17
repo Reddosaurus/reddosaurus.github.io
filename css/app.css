@@ -1,0 +1,467 @@
+/***********************
+        global
+***********************/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+}
+
+
+.gradient-red {
+  background: rgb(0,0,0); /* Old browsers */
+  background: -moz-linear-gradient(left, rgb(0,0,0) 0%, rgb(49,13,81) 50%, rgb(0,0,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgb(0,0,0) 0%,rgb(49,13,81) 50%,rgb(0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgb(0,0,0) 0%,rgb(49,13,81) 50%,rgb(0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=1 );
+margin-top: 25px;
+}
+
+
+*
+
+/***********************
+   js helpers
+***********************/
+
+
+/***********************
+   simple grid system
+***********************/
+
+/* defines a new row inside the grid */
+.row {
+  min-height: 500px;
+  padding: 70px 1.5% 0.5%;
+  width: 97%;
+}
+
+/* setups a new column with common properties */
+.col {
+  display: inline-block;
+  float: left;
+}
+
+/* defines a new column with 1/3 of the width */
+.col-1 {
+  width: 33.3%;
+}
+
+/* defines a new column with 2/3 of the width */
+.col-2 {
+  width: 66.6%;
+}
+
+/* defines a new column with 3/3 of the width */
+.col-3 {
+  width:  99.9%;
+}
+
+
+/***********************
+      navigation
+***********************/
+
+
+.logo{
+  width:200px;
+  height: 150px;
+}
+
+#name {
+  font-family: "open sans";
+  font-weight: lighter;
+  font-size: 1.5rem;
+  margin-top: -120px;
+  margin-left: 170px;
+}
+
+header nav {
+  background-color: rgb(255, 255, 255);
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-bottom: 3px solid rgb(0,0,0);
+}
+
+header nav .menu ul {
+  margin-right: 10px;
+}
+
+
+header nav .menu  ul li{
+  display: inline;
+  float: right;
+  height: 80px;
+  margin-right: 10px;
+  padding: 0 20px 0 2px;
+  list-style: none;
+  margin-top: 3%;
+
+}
+
+#home nav #ki li{
+  display: inline;
+  float: right;
+  list-style: none;
+  padding: 0 20px 0 2px;
+  font-family: "open sans Light", sans-serif;
+  font-weight: lighter;
+  color: rgb(121,121,12)
+}
+
+header nav .menu  ul li a {
+  text-decoration: none;
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
+  padding-right: 8px;
+  padding-left: 8px;
+  font-size: 20px;
+  color: rgb(121,121,121);
+  font-family: "Open Sans Light", sans-serif;
+  font-weight: lighter;
+}
+
+.menu  hover:li {
+  border-bottom: 4px solid green;
+}
+/*
+header nav .menu ul {
+  background-color: rgba(255, 255, 255, 0.8);
+  list-style: none;
+  opacity: 1;
+  padding: 5px 10px 15px;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  width: 150%;
+}
+
+header nav .menu ul li a {
+  color: #FFF;
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+*/
+
+/***********************
+        header
+***********************/
+
+header {
+
+background-image: url("../images/rain_nature.gif");
+background-repeat: no-repeat;
+background-size: 100% 100% ;
+}
+#heading {
+
+  color: #fff;
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 4rem;
+  margin-top: 200px;
+  opacity: 1;
+  margin-left: 35%;
+  background-color: rgba(0,0,0,0.8);
+  /*text-shadow: 14px -13px 1px rgba(249, 250, 250, 0.24);*/
+
+}
+
+header #heading span {
+  color: #5E5CC6;
+}
+
+
+/***********************
+        about
+***********************/
+
+.greet{
+  color:white;
+  font-family: open sans;
+  font-size: 30px;
+  margin-left: 30px;
+}
+
+.introduce {
+  color: #FFF;
+  font-family: open sans;
+  margin-left: 30px;
+}
+/*
+ul.introduce {
+  display: inline-block;
+  list-style: none;
+  float: right;
+  margin: 150px 0 0;
+}
+
+ul.introduce li {
+  margin: 7.5px 0;
+}
+*/
+.profile-img {
+  border: 4px solid #FFF;
+  border-radius: 10px;
+  display: inline-block;
+  float: left;
+  height: 500px;
+  margin-left: -180px;
+  margin-top: -25px;
+}
+
+.rectangle {
+
+  margin-top: .5%;
+  margin-left: 10%;
+}
+
+
+/***********************
+      favourites
+***********************/
+
+.interest {
+  font-family: roboto;
+  font-size: 40px;
+  margin-top: -60px;
+}
+
+.slogan {
+  font-family: roboto;
+  font-size: 50px;
+}
+
+#avatar {
+  display: block;
+  margin-top: -20px;
+  width: 80%;
+}
+
+#favourites {
+  display: block;
+  width: 70%;
+  margin: -65px auto 0;
+}
+
+
+/***********************
+        poem
+***********************/
+
+.frost {
+  font-family: roboto;
+  color: #FFF;
+  text-align: center;
+  margin-top: -50px;
+}
+
+.poemtitle {
+  font-family: roboto;
+  color: #FFF;
+  text-align: center;
+}
+
+.firstvers {
+  color: #FFF;
+  font-family: roboto;
+  text-align: center;
+}
+
+.lastvers {
+  color: #FFF;
+  font-family: roboto;
+  text-align: center;
+}
+
+.poemtitle ,.firstvers, .lastvers {
+  margin-bottom: 50px;
+}
+
+
+/***********************
+  header two (project)
+***********************/
+.headertwo {
+ margin-top: -250px;
+}
+
+.headertwo h1 {
+  font-family: roboto;
+  font-size: 100px;
+  color: #5613A3;
+  margin-top: 350px;
+  text-shadow: 14px -13px 1px rgba(249, 250, 250, 0.24);
+  display: block;
+  border-top: 5px solid #5613A3;
+}
+
+
+/***********************
+        projects
+***********************/
+
+.description {
+  color: black;
+  font-family: roboto;
+  text-align: center;
+  font-size: 15px;
+  float: right;
+  margin-right:150px;
+}
+
+.projectimage {
+  width:200px;
+  height:250px;
+  border: 2px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.hamburg {
+  color: red;
+  font-family: roboto;
+  font-size: 50px;
+
+}
+
+.photoshop {
+  color:Blue;
+  font-family: roboto;
+  font-size: 50px;
+}
+
+.Illustrator {
+  color:Orange;
+  font-family: roboto;
+  font-size: 50px;
+}
+
+.project {
+  background-color: #F2F2F2;
+  margin-bottom: 20px;
+}
+
+.gallery img {
+ display: inline;
+ width:21.5%;
+ height: 350px;
+ margin: 1.5%;
+ border: 2px;
+ border-radius: 10px;
+ box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+
+
+
+
+/***********************
+        driving
+***********************/
+
+#driving-header h1 {
+  color: #5613A3;
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-size: 8rem;
+  margin: 15% 0 0 2.5%;
+  text-shadow: 14px -13px 1px rgb(211,211,211);
+  border-top: 5px solid #5613A3;
+}
+
+#citymap {
+  width:90%;
+  height: 500px;
+  margin-top: -60px;
+
+}
+#data {
+  list-style: none;
+  font-family: roboto;
+  font-size: 1.4rem;
+  margin-right: 100px;
+  float: right;
+  margin-top: 10%;
+}
+
+#social li img {
+  width: 60px;
+
+}
+
+#social li {
+  list-style: none;
+  font-family: roboto;
+  font-size: 1.4rem;
+  display: inline-block;
+  padding-right: 20px;
+  margin-top: 20px;
+}
+
+
+/***********************
+        contact
+***********************/
+
+ #contact-head {
+ }
+
+#contact-head h1 {
+  color: #5613A3;
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-size: 7rem;
+  margin: 30% 0 0 2.5%;
+  text-shadow: 14px -13px 1px rgba(249, 250, 250, 0.24);
+  display: block;
+  border-top: 5px solid #5613A3;
+}
+
+#contact-img {
+  width: 90%;
+}
+
+.contact-form {
+  font-family: "Roboto", sans-serif;
+}
+
+.contact-form h3 {
+  margin: 30px;
+}
+
+.contact-form form * {
+  display: block;
+  margin: 10px 30px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  border: 1px solid #CCC;
+  border-radius: 0.25rem;
+  line-height: 1.4rem;
+  font-size: 1.1rem;
+  padding: 2.5px;
+  width: 70%;
+}
+
+.contact-form button {
+  background: #ff3019;
+  border-radius: 2px;
+  box-shadow: 3px 3px 4px #AAA;
+  border: none;
+  color: #FFF;
+  height: 40px;
+  width: 30%;
+}
+
+.contact-form button:active {
+  box-shadow: 1px 1px 2px #AAA;
+}
